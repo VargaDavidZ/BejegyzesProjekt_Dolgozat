@@ -168,10 +168,10 @@ public class Tasks {
             }
         });
 
-        for(Bejegyzes item: myList)
+       /* for(Bejegyzes item: myList)
         {
             System.out.println(item.getLikeok());
-        }
+        }*/
 
         try{
             BufferedWriter bw = new BufferedWriter(new FileWriter("bejegyzések_rendezett.txt"));
